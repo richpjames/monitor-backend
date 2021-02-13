@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_book_titles",
+  "info": {
+    "name": "Title",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}
