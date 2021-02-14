@@ -46,9 +46,11 @@
       "required": true,
       "unique": true
     },
-
     "images": {
       "type": "json"
+    },
+    "price": {
+      "type": "integer"
     }
   }
 }
