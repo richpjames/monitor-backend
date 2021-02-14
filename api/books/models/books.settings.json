@@ -11,15 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "images": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "lefttext": {
       "type": "richtext"
     },
@@ -54,6 +45,10 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+
+    "images": {
+      "type": "json"
     }
   }
 }
