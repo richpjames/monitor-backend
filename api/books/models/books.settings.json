@@ -15,9 +15,7 @@
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false
@@ -28,8 +26,34 @@
     "righttext": {
       "type": "richtext"
     },
-    "Title": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "publishedDate": {
+      "type": "date",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "inventory": {
+      "type": "integer"
+    },
+    "devPriceId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "prodPriceId": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
