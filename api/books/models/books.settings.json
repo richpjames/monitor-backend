@@ -51,6 +51,10 @@
     },
     "price": {
       "type": "integer"
+    },
+    "thumbnail_url": {
+      "type": "string",
+      "required": true
     }
   }
 }
