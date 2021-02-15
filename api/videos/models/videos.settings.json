@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "murmur-reading-series",
+  "info": {
+    "name": "Murmur Reading Series",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "publishedDate": {
+      "type": "date",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "type": "json"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "book.split-text"
+    },
+    "artists": {
+      "collection": "artist"
+    }
+  }
+}
