@@ -15,10 +15,6 @@
       "type": "string",
       "required": true
     },
-    "author": {
-      "type": "string",
-      "required": true
-    },
     "publishedDate": {
       "type": "date",
       "required": true
@@ -37,6 +33,14 @@
     },
     "artists": {
       "collection": "artist"
+    },
+    "URL": {
+      "type": "string",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "string",
+      "required": true
     }
   }
 }
