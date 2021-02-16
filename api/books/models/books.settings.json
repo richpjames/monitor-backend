@@ -52,7 +52,7 @@
     "price": {
       "type": "integer"
     },
-    "thumbnail_url": {
+    "thumbnail": {
       "type": "string",
       "required": true
     }
