@@ -23,24 +23,23 @@
       "type": "string",
       "required": true
     },
-    "images": {
-      "type": "json"
-    },
-    "description": {
-      "type": "component",
-      "repeatable": true,
-      "component": "book.split-text"
-    },
     "artists": {
       "collection": "artist"
     },
-    "URL": {
+    "url": {
       "type": "string",
       "required": true
     },
     "thumbnail": {
       "type": "string",
       "required": true
+    },
+    "blurb1": {
+      "type": "richtext",
+      "required": true
+    },
+    "blurb2": {
+      "type": "richtext"
     }
   }
 }

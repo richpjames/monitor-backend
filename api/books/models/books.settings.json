@@ -11,10 +11,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "lefttext": {
+    "blurb1": {
       "type": "richtext"
     },
-    "righttext": {
+    "blurb2": {
       "type": "richtext"
     },
     "title": {
