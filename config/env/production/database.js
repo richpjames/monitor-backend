@@ -1,5 +1,6 @@
 const parse = require("pg-connection-string").parse;
 const config = parse(process.env.DATABASE_URL);
+require("newrelic");
 
 module.exports = ({ env }) => ({
   defaultConnection: "default",
