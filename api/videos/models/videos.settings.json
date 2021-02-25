@@ -40,6 +40,9 @@
     },
     "blurb2": {
       "type": "richtext"
+    },
+    "transcript_url": {
+      "type": "string"
     }
   }
 }
