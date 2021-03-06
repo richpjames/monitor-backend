@@ -23,9 +23,6 @@
       "type": "string",
       "required": true
     },
-    "artists": {
-      "collection": "artist"
-    },
     "url": {
       "type": "string",
       "required": true
@@ -43,6 +40,11 @@
     },
     "transcript_url": {
       "type": "string"
+    },
+    "artists": {
+      "collection": "artist",
+      "via": "murmur_reading_series",
+      "dominant": true
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "intro_pages",
+  "info": {
+    "name": "Intro page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
