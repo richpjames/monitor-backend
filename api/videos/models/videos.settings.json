@@ -45,6 +45,15 @@
       "collection": "artist",
       "via": "murmur_reading_series",
       "dominant": true
+    },
+    "thumbnail_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
