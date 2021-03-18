@@ -49,11 +49,9 @@
     "thumbnail_img": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "plugin": "upload",
-      "required": false
+      "required": true
     }
   }
 }
