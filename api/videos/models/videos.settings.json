@@ -16,7 +16,7 @@
       "required": true
     },
     "publishedDate": {
-      "type": "date",
+      "type": "datetime",
       "required": true
     },
     "slug": {
@@ -49,7 +49,9 @@
     "thumbnail_img": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
       "required": true
     }
