@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "submissions",
+  "info": {
+    "name": "Submissions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
