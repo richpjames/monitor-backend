@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "basket_pages",
+  "info": {
+    "name": "Basket Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "empty_basket_message": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
