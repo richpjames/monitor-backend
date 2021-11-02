@@ -52,16 +52,25 @@
     "gallery_images": {
       "collection": "file",
       "via": "related",
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
     },
     "thumbnail_image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
+    },
+    "productType": {
+      "type": "string"
     }
   }
 }
