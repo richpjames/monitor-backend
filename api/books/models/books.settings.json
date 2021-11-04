@@ -52,9 +52,7 @@
     "gallery_images": {
       "collection": "file",
       "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
@@ -62,9 +60,7 @@
     "thumbnail_image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
@@ -75,7 +71,6 @@
     "pageOrder": {
       "type": "integer",
       "required": true,
-      "unique": true,
       "min": 0
     }
   }
