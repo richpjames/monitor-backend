@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "occasions",
   "info": {
-    "name": "Occasions",
+    "name": "Occassions",
     "description": ""
   },
   "options": {
@@ -43,7 +43,7 @@
     },
     "artists": {
       "collection": "artist",
-      "via": "occasions",
+      "via": "murmur_reading_series",
       "dominant": true
     },
     "thumbnail_img": {
