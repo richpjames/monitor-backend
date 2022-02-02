@@ -21,7 +21,7 @@
     },
     "slug": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "url": {
       "type": "string",
@@ -29,7 +29,7 @@
     },
     "thumbnail": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "blurb1": {
       "type": "richtext",
