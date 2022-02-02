@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "murmur-reading-series",
+  "collectionName": "occasions",
   "info": {
-    "name": "Murmur Reading Series",
+    "name": "Occasions",
     "description": ""
   },
   "options": {
@@ -43,15 +43,13 @@
     },
     "artists": {
       "collection": "artist",
-      "via": "murmur_reading_series",
+      "via": "occasions",
       "dominant": true
     },
     "thumbnail_img": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "plugin": "upload",
       "required": true
     }
