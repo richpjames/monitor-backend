@@ -25,7 +25,7 @@
     },
     "url": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "thumbnail": {
       "type": "string",
@@ -49,9 +49,7 @@
     "thumbnail_img": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
@@ -59,9 +57,7 @@
     "image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
