@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "murmur_reading_series_descriptions",
   "info": {
-    "name": "Murmur Reading Series Description"
+    "name": "Murmur Reading Series Description",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,6 +14,9 @@
     "Description": {
       "type": "text",
       "required": false
+    },
+    "description_of_events": {
+      "type": "richtext"
     }
   }
 }
