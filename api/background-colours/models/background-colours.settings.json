@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "background_colours",
   "info": {
-    "name": "Background Colours"
+    "name": "Background Colours",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,7 +13,6 @@
   "attributes": {
     "books_backgound": {
       "type": "string",
-      "regex": "/#([a-fA-F]|[0-9]){6}/is",
       "required": true,
       "maxLength": 7,
       "minLength": 7
@@ -21,12 +21,10 @@
       "type": "string",
       "required": true,
       "minLength": 7,
-      "maxLength": 7,
-      "regex": "/#([a-fA-F]|[0-9]){6}/is"
+      "maxLength": 7
     },
     "basket_background": {
       "type": "string",
-      "regex": "/#([a-fA-F]|[0-9]){6}/is",
       "required": true,
       "maxLength": 7,
       "minLength": 7
