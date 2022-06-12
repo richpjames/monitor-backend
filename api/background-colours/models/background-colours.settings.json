@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "background_colours",
+  "info": {
+    "name": "Background Colours"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "books_backgound": {
+      "type": "string",
+      "regex": "/#([a-fA-F]|[0-9]){6}/is",
+      "required": true,
+      "maxLength": 7,
+      "minLength": 7
+    },
+    "about_background": {
+      "type": "string",
+      "required": true,
+      "minLength": 7,
+      "maxLength": 7,
+      "regex": "/#([a-fA-F]|[0-9]){6}/is"
+    },
+    "basket_background": {
+      "type": "string",
+      "regex": "/#([a-fA-F]|[0-9]){6}/is",
+      "required": true,
+      "maxLength": 7,
+      "minLength": 7
+    },
+    "occasions_background": {
+      "type": "string"
+    }
+  }
+}

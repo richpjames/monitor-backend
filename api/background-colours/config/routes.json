@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/background-colours",
+      "handler": "background-colours.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/background-colours/count",
+      "handler": "background-colours.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/background-colours/:id",
+      "handler": "background-colours.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/background-colours",
+      "handler": "background-colours.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/background-colours/:id",
+      "handler": "background-colours.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/background-colours/:id",
+      "handler": "background-colours.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
