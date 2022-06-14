@@ -11,7 +11,7 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "books_backgound": {
+    "books_background": {
       "type": "string",
       "required": true,
       "maxLength": 7,
