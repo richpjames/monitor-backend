@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "Book",
+    "name": "book"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "blurb1": {
+      "type": "richtext"
+    },
+    "blurb2": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "publishedDate": {
+      "type": "date",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "inventory": {
+      "type": "integer"
+    },
+    "devPriceId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "prodPriceId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "price": {
+      "type": "integer"
+    },
+    "gallery_images": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": true,
+      "required": true
+    },
+    "thumbnail_image": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false,
+      "required": true
+    },
+    "productType": {
+      "type": "string"
+    },
+    "pageOrder": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    }
+  }
+}

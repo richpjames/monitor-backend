@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "background_colours",
+  "info": {
+    "singularName": "background-colour",
+    "pluralName": "background-colours",
+    "displayName": "Background-colour",
+    "name": "background-colour"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "books_background": {
+      "type": "string",
+      "required": false,
+      "maxLength": 7,
+      "minLength": 7
+    },
+    "about_background": {
+      "type": "string",
+      "required": true,
+      "minLength": 7,
+      "maxLength": 7
+    },
+    "basket_background": {
+      "type": "string",
+      "required": true,
+      "maxLength": 7,
+      "minLength": 7
+    },
+    "occasions_background": {
+      "type": "string"
+    }
+  }
+}

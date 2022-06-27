@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_book_split_texts",
+  "info": {
+    "name": "Split Text",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "leftText": {
+      "type": "richtext",
+      "required": true
+    },
+    "rightText": {
+      "type": "richtext",
+      "private": false,
+      "required": true
+    }
+  }
+}

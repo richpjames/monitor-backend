@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "murmur_reading_series_descriptions",
+  "info": {
+    "singularName": "murmur-reading-series-description",
+    "pluralName": "murmur-reading-series-descriptions",
+    "displayName": "Murmur-reading-series-description",
+    "name": "murmur-reading-series-description"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Description": {
+      "type": "text",
+      "required": false
+    },
+    "description_of_events": {
+      "type": "richtext"
+    }
+  }
+}

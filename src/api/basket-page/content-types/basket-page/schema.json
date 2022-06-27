@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "basket_pages",
+  "info": {
+    "singularName": "basket-page",
+    "pluralName": "basket-pages",
+    "displayName": "Basket-page",
+    "name": "basket-page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "empty_basket_message": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "murmur-reading-series",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "Video",
+    "name": "video"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "publishedDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "string",
+      "required": true
+    },
+    "blurb1": {
+      "type": "richtext",
+      "required": true
+    },
+    "blurb2": {
+      "type": "richtext"
+    },
+    "transcript_url": {
+      "type": "string"
+    },
+    "artists": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::artist.artist",
+      "inversedBy": "murmur_reading_series"
+    },
+    "thumbnail_img": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false,
+      "required": true
+    }
+  }
+}
