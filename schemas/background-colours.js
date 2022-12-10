@@ -5,7 +5,7 @@ export default {
   fields: [
     {
       name: "about",
-      title: "About",
+      title: "about",
       type: "string",
     },
     {
@@ -17,12 +17,11 @@ export default {
       name: "occasions",
       title: "occasions",
       type: "string",
-      description: "For the URL of the event",
     },
     {
-      name: "books",
-      title: "books",
-      type: "date",
+      name: "products",
+      title: "products",
+      type: "string",
     },
   ],
 };
