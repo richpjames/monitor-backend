@@ -74,5 +74,10 @@ export default {
       },
       validation: (Rule) => Rule.required().min(4).max(4),
     },
+    {
+      name: "thumbnail_image",
+      title: "Thumbnail image",
+      type: "image",
+    },
   ],
 };
