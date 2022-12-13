@@ -6,6 +6,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import product from "./product";
 import event from "./event";
 import backgroundColours from "./background-colours";
+import occasionsDescription from "./occassions-description";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -13,5 +14,10 @@ export default createSchema({
   name: "default",
   // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
-  types: schemaTypes.concat([product, event, backgroundColours]),
+  types: schemaTypes.concat([
+    product,
+    event,
+    backgroundColours,
+    occasionsDescription,
+  ]),
 });
