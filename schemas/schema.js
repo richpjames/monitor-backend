@@ -6,7 +6,8 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import product from "./product";
 import event from "./event";
 import backgroundColours from "./background-colours";
-import occasionsDescription from "./occassions-description";
+import eventsDescription from "./eventsDescription";
+import about from "./about";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -18,6 +19,7 @@ export default createSchema({
     product,
     event,
     backgroundColours,
-    occasionsDescription,
+    eventsDescription,
+    about,
   ]),
 });
