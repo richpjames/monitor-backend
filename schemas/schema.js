@@ -8,6 +8,7 @@ import event from "./event";
 import backgroundColours from "./background-colours";
 import eventsDescription from "./eventsDescription";
 import about from "./about";
+import favicon from "./favicon";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,5 +22,6 @@ export default createSchema({
     backgroundColours,
     eventsDescription,
     about,
+    favicon,
   ]),
 });
