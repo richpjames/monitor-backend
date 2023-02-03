@@ -72,7 +72,7 @@ export default {
       options: {
         hotspot: true,
       },
-      validation: (Rule) => Rule.required().min(4).max(4),
+      validation: (Rule) => Rule.required().min(1).max(4),
     },
     {
       name: "thumbnail_image",
