@@ -9,5 +9,10 @@ export default {
       type: "array",
       of: [{ type: "block" }],
     },
+    {
+      name: "banner_image",
+      title: "Banner",
+      type: "image",
+    },
   ],
 };
